@@ -2,18 +2,17 @@
 <head>
 <style>
 @keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+    from { transform: translate(-50%, -50%) rotate(0deg); }
+    to { transform: translate(-50%, -50%) rotate(360deg); }
 }
 
 .spin {
   animation: spin 4s infinite linear;
-  width: 500px;
-}
-
-body {
-  width: 500px;
-  margin: 200px auto;
+  max-width: 50%;
+  max-height: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
 }
 </style>
 </head>
