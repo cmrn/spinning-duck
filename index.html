@@ -1,0 +1,23 @@
+<html>
+<head>
+<style>
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+.spin {
+  animation: spin 4s infinite linear;
+  width: 500px;
+}
+
+body {
+  width: 500px;
+  margin: 200px auto;
+}
+</style>
+</head>
+<body>
+<img class="spin" src="./duck.png" />
+</body>
+</html>
